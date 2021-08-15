@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import { useContext } from 'react';
 import sanity from '../lib/sanity';
 import groq from 'groq';
