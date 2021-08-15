@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 function Clients() {
   return (
     <div className="container mx-auto mb-44">

@@ -1,6 +1,7 @@
-import Link from "next/link";
+/* eslint-disable */
+
 import { AppContext } from "../contexts/AppContext";
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 
 function Item({ product, qty }) {
   const { state, dispatch } = useContext(AppContext);
@@ -9,7 +10,6 @@ function Item({ product, qty }) {
     <div className="flex items-center hover:bg-gray-100 -mx-8 px-6 py-5">
       <div className="flex w-2/5">
         <div className="w-20">
-          {/* <img className="h-24" src="https://drive.google.com/uc?id=18KkAVkGFvaGNqPy2DIvTqmUH_nk39o3z" alt="" /> */}
           <img className="h-24" src={product.image} alt="" />
         </div>
         <div className="justify-between ml-4 flex-grow">

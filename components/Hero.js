@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 function Hero() {
   return (
     <div style={{ 
