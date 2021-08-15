@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+  background-color: blue;
+  color: #fff;
+  padding: .3em 2em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav > a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* .nav > h4 {
+  text-transform: uppercase;
+} */
+
+.navLinks {
+  list-style: none;
+  display: inline-block;
+}
+
+.navLinks > li {
+  display: inline-block;
+}
+
+.navLinks > li+li {
+  margin-left: .8em;
+}
+
+.navLinks > li > a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  padding: .5em 1em;
+  /* background-color: yellow; */
+}

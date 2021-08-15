@@ -1,0 +1,14 @@
+.container {
+  /* padding: 0 0.5rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em 0;
+  height: 89vh;
+  /* background-color: red; */
+}
+
+.container > form {
+  padding: 2em;
+  /* background-color: yellow; */
+}
